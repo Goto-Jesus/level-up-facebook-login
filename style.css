@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+}
+
+main {
+  padding: 120px 0;
+  background-color: #edf0f5;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column-left {
+}
+
+.column-right {
+  text-align: center;
+}
+
+.form {
+  width: 400px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  border-radius: 12px;
+  padding: 15px;
+
+}
+
+.form input {
+
+}
+
+.form button {
+
+}
+
+footer {
+  padding: 40px 0;
+  color: #8a8d91;
+  word-spacing: 12px;
+  font-size:12px;
+}
+
+footer a{
+	color: #8a8d91;
+}
+
+a{
+	color: #8a8d91;
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.Vadya{
+	float:right;
+}
+
+/* */
+div{
+  margin: 15px 0px;
+}
+
+.form-text
+{
+	margin: 25px 0 0 0;
+}
+
+input{
+  border: 1.5px solid #dddfe2;
+  border-radius: 6px;
+  padding: 15px;
+  width: 364px;
+  font-size: 17px;
+}
+input:active{
+  border: 1.5px solid #1877f2;
+  border-radius: 6px;
+}
+
+button{
+  height:48px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.blueButton{
+  color: white;
+  background-color: #1877f2;
+  border: 0px solid #1877f2;
+  border-radius: 6px;
+  width: 400px;
+}
+
+
+.blueButton:hover{
+  color: white;
+  background-color: #4267b2;
+  border: 0px solid #4267b2;
+  border-radius: 6px;
+}
+
+.greenButton{
+  color: white;
+  background-color: #42b72a;
+  border: 0px solid #42b72a;
+  border-radius: 6px;
+  margin: 0, auto;
+  width: 300px;
+}
+
+.greenButton:hover{
+  color: white;
+  background-color: #318321;
+  border: 0px solid #318321;
+  border-radius: 6px;
+}
+
+.logoText{
+  color:#1877f2;
+}
+
+h1{
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+h2{
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  font-size: 28px;
+  color:#1c1e21;
+}
+
+.blue_A{
+  color: #1877f2;
+}
+
+.black_A{
+  color:#1c1e21;
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  main {
+    padding: 40px 0;
+  }
+
+  .columns {
+	  width:100%;
+    display: block;
+	margin:0 auto;
+  }
+
+  .column-left {
+	text-align: center;
+    display: block;
+	margin:0 auto;
+  }
+  
+  .column-right {
+    text-align: center;
+    display: block;
+	margin:0 auto;
+  }
+  
+  .form{
+	  margin:0 auto;
+  }
+}
