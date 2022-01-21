@@ -19,6 +19,7 @@ main {
 }
 
 .column-left {
+
 }
 
 .column-right {
@@ -128,6 +129,8 @@ button{
 
 .logoText{
   color:#1877f2;
+  margin-bottom: 0px;
+  margin-top: 75px;
 }
 
 h1{
